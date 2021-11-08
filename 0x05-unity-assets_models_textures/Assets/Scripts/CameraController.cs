@@ -3,23 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 public class CameraController : MonoBehaviour
 {
-    public float smoothFactor = 0.5f;
     public Transform player;
-    public Vector3 offset;
-    public bool lookAtTarget = false;
+    private Vector3 offset;
+
+    public float turnSpeed = 5f;
+
     // Use this for initialization
     void Start()
     {
-        offset = transform.position - player.transform.position;
-    }
+        offset = transform.position - player.position;
+    }   
     void LateUpdate()
     {
-        Vector3 newPosition = player.transform.position + offset;
-        transform.position = Vector3.Slerp(transform.position, newPosition, smoothFactor);
-        if (lookAtTarget)
-        {
-            transform.LookAt(player);
-        }
+
+
+        offset = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * turnSpeed, Vector3.up) * offset;
+
+        Vector3 desiredPosition = player.position + offset;
+        //Vector3 SmoothPosition = Vector3.Lerp(transform.position, desiredPosition, 2f * Time.deltaTime);
+        transform.position = desiredPosition;
+        transform.LookAt(player.position);
+
+        // Rotate the player
+        player.Rotate(Input.GetAxis("Mouse X") * turnSpeed * Vector3.up);
+
+
     }
 
 
