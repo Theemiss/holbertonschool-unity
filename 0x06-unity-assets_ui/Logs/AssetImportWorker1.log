@@ -251,3 +251,9 @@ Received Import Request.
   path: Assets/Textures/UI/sound-mute.png
   artifactKey: Guid(a7674b4ba98c736419e8e7bd1b402c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Textures/UI/sound-mute.png using Guid(a7674b4ba98c736419e8e7bd1b402c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de10f1f5f91698deb51a2c701aea71c6') in 0.016687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 288.963202 seconds.
+  path: Assets/Materials/Flag.mat
+  artifactKey: Guid(758713dabe26a0f489688e410e33f617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Flag.mat using Guid(758713dabe26a0f489688e410e33f617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3412c6f440364c5842223704e33eb24') in 0.158286 seconds 

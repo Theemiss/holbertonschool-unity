@@ -170,3 +170,33 @@ Received Import Request.
   path: Assets/Textures/UI/check-toggle.png
   artifactKey: Guid(8b3156c79bbe3524c8239e0ce49a7e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Textures/UI/check-toggle.png using Guid(8b3156c79bbe3524c8239e0ce49a7e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d48fcd264ee4b29be029693ce6ce77') in 0.114450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 288.770266 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(f996d63bc651b244b8f7bb6465548ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(f996d63bc651b244b8f7bb6465548ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0346ffab7e440b4e835bf03552ddc0be') in 0.006549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.118583 seconds.
+  path: Assets/Materials/FACE.mat
+  artifactKey: Guid(e18ccedd87a19854cb2a553340ee9220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/FACE.mat using Guid(e18ccedd87a19854cb2a553340ee9220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce8b2471184107dc0b39daff8b9a90d') in 0.157857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.350006 seconds.
+  path: Assets/Scenes/Level01.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level01.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6dbb03b336c8515e7c85845a0ce43b9') in 0.008001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.693672 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(878199d687f8fad4295e025ab944c0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(878199d687f8fad4295e025ab944c0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b936a42b11684c5e491abbb09df0e084') in 0.003766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.218276 seconds.
+  path: Assets/Prefabs/PauseCanvas.prefab
+  artifactKey: Guid(f5ff6016f20874b49855068d224d8009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PauseCanvas.prefab using Guid(f5ff6016f20874b49855068d224d8009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f35f2257cec6abce5ff10c06ae8a30') in 0.034785 seconds 
