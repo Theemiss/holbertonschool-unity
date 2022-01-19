@@ -190,6 +190,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: a970dd7937949844aa6b2b4d9422e0b7, type: 3}
   m_PrefabInstance: {fileID: 710732178}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &61055658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4438512755911260810, guid: 652bbbd4ebfa8af4d8c908d0047ae4b0, type: 3}
+  m_PrefabInstance: {fileID: 4438512755914880469}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &70357479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4446,6 +4451,7 @@ GameObject:
   - component: {fileID: 1722203976}
   - component: {fileID: 1722203975}
   - component: {fileID: 1722203978}
+  - component: {fileID: 1722203979}
   m_Layer: 0
   m_Name: CutsceneCamera
   m_TagString: Untagged
@@ -4512,7 +4518,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722203974}
   m_LocalRotation: {x: -0, y: 0.19601968, z: -0, w: 0.98059994}
-  m_LocalPosition: {x: -2.72, y: 2.86, z: 93.09}
+  m_LocalPosition: {x: -2.72, y: 2.86, z: 93.055}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4539,6 +4545,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1722203979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722203974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a683b4c89329f4a82acd96445c39dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 963194225}
+  timercanvas: {fileID: 61055658}
 --- !u!1001 &1739228452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5659,7 +5679,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517339277577793078}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6386809a560572b45b5c3cc5e951f689, type: 3}
   m_Name: 
@@ -5718,6 +5738,10 @@ PrefabInstance:
     - target: {fileID: 4438512755911260810, guid: 652bbbd4ebfa8af4d8c908d0047ae4b0, type: 3}
       propertyPath: m_Name
       value: TimerCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438512755911260810, guid: 652bbbd4ebfa8af4d8c908d0047ae4b0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4438512755911260854, guid: 652bbbd4ebfa8af4d8c908d0047ae4b0, type: 3}
       propertyPath: m_Pivot.x
